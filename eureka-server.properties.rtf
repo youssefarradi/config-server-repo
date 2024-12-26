@@ -1,0 +1,21 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2818
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Consolas;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red29\green0\blue255;\red50\green110\blue77;
+}
+{\*\expandedcolortbl;;\csgray\c0;\cspthree\c14786\c974\c95979;\cspthree\c31049\c49210\c38210;
+}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf2 server.port= \cf3 9102\
+\cf2 spring.application.name=\cf3 eureka-server\
+
+\fs22\fsmilli11040 \cf4 # Single eureka mode, and note Cluster mode\
+
+\fs24 \cf2 eureka.client.registerWithEureka=\cf3 false\
+\cf2 eureka.client.fetchRegistry=\cf3 false\
+\cf2 spring.cloud.config.import-check.enabled=\cf3 false\
+
+\fs22\fsmilli11040 \cf4 #To avoid eureka server Connect to localhost:8761 timed out\
+
+\fs24 \cf2 eureka.server.maxThreadsForPeerReplication=\cf3 0}
